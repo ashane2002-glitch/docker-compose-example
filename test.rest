@@ -11,4 +11,4 @@ Content-Type: application/json
 }
 
 ###
-GET http://34.51.209.130:13000/setup
+GET http://localhost:3000/setup
