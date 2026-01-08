@@ -1,6 +1,6 @@
 const express = require('express')
 const pool = require('./db')
-const { Children } = require('react')
+
 const port = 3000
 
 const app = express()
