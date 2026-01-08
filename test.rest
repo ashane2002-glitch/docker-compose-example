@@ -1,11 +1,14 @@
 ###
-GET http://localhost:1337
+GET http://34.51.209.130:13000
 
 ###
-POST http://localhost:1337
+POST http://34.51.209.130:13000
 Content-Type: application/json
 
 {
     "name":"james",
     "location":"23 hellow world street"
 }
+
+###
+GET http://34.51.209.130:13000/setup
