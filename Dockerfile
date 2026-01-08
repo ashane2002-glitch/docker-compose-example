@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 3000
 
-cmd['npm', 'run', 'dev']
+CMD ['npm', 'run', 'dev']
