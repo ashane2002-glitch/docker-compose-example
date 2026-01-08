@@ -21,7 +21,7 @@ app.get('/',async (req,res) => {
 app.post('/', async (req,res) =>{
     const { name, location } = req.body
     try{
-        await pool.query('INSERT INTO (name,location) VALUES($1, $2)', [name,location])
+        await pool.query('INSERT INTO (name,address) VALUES($1, $2)', [name,location])
         res.status(200).send({message:"Successfull added child"})
     }catch(err){
         console.log(err)
