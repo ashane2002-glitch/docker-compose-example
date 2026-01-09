@@ -6,9 +6,9 @@ POST http://34.51.209.130:13000
 Content-Type: application/json
 
 {
-    "name":"james",
-    "location":"23 hellow world street"
+    "name":"ashane",
+    "location":"test 123"
 }
 
 ###
-GET http://localhost:3000/setup
+GET http://34.51.209.130:13000/setup
